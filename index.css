@@ -1,0 +1,73 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 0;
+    border-bottom: 1px solid #C6C6C6 ;
+}
+
+.user-avatar {
+    width: 32px;
+    border-radius: 100%;
+}
+
+.logo {
+    width: 100px;
+}
+
+.post-header {
+    padding: 10px;
+}
+
+.post .post-header {
+    display: flex;
+    justify-content: start;
+}
+
+.name,
+.bold {
+    font-weight: bold;
+}
+
+.name, 
+.location {
+    padding: 10px;
+}
+
+.post .avatar {
+    border-radius: 100%;
+    width: 32px;
+}
+
+.post .img {
+    width: 100%;
+}
+
+p,
+.post-interaction {
+    margin: 0;
+}
+
+.interaction-container .img {
+    width: 32px;
+}
+
+.interaction-container p, 
+.interaction-container .img {
+    padding: 5px;
+}
+
+.interaction-container{
+    margin: 10px;
+}
+
+.interaction-container .img:hover {
+    opacity: 0.1;
+}
