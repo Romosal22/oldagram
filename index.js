@@ -30,12 +30,7 @@ const posts = [
 
 const postListEl = document.getElementById("post-list")
 
-clearPosts();
 renderPosts(posts);
-
-function clearPosts(){
-    postListEl.innerHTML=""
-}
 
 function renderPosts(postList){
     for (let i = 0; i<postList.length; i++) {
